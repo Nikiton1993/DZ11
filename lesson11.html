@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--для кнопки-->
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson07</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="header__main-menu">
+				<a href="#" class="logo">
+					<img src="img/indicius.svg" width="115" height="24" alt="#">
+				</a>
+				<ul class="header__main-menu-list">
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="main-title"><!--не додумался как назвать-->
+			<div class="container">
+				<h1>Designing for a more human-centered world.<span class="archivo"><br>Together.</span></h1>
+				<div class="main-title__box">
+					<div class="main-title__box-element"></div>
+					<div class="main-title__box-element"></div>
+					<div class="main-title__box-element"></div>
+					<div class="main-title__box-element"></div>
+				</div>
+			</div>
+		</section>
+		<section class="about container">
+			<h2 class="about__title">We’re a team of humans with the strategy, tools, and talent to build outstanding branding solutions and digital products.</h2>
+			<div class="about__box">
+				<div class="about__box-element"><img src="img/face.svg" width="100" height="100" alt="#"></div>
+				<div class="about__box-element"><img src="img/bulb.svg" width="73" height="100" alt="#"></div>
+				<div class="about__box-element"><img src="img/screw.svg" width="100" height="100" alt="#"></div>
+			</div>
+		</section>
+		<section class="works container">
+			<article class="works__plate">
+				<img src="img/graphics.jpg" alt="#">
+				<div class="works__plate-description">
+					<a href="#" class="works__plate-description-link">columbia university</a>
+					<h2>Redesigning Columbia University's genomics app<br> for on-the-go analysis
+					</h2>
+					<a href="#" class="link-more">View Case Study</a>
+				</div>
+			</article>
+			<article class="works__plate">
+				<img src="img/nubi.jpg" alt="#">
+				<div class="works__plate-description">
+					<a href="#" class="works__plate-description-link">nubi</a>
+					<h2>Designing a new product experience for a PayPal partner in the fintech industry
+					</h2>
+					<a href="#" class="link-more">View Case Study</a>
+				</div>
+			</article>
+			<a class="works__btn" href="#">View All Case Studies</a>
+		</section>
+		<!--не понял как избежать такой вложености ниже чтобы сделать желтый фон на всю ширину-->
+		<section class="offer">
+			<div class="container">
+				<article class="offer__sample">
+					<div class="offer__sample-text">
+						<h2>Design Sprint<span class="archivo">.<br>Together.</span></h2>
+						<p>Solve tough problems in a single week through this structured, step-by-step user experience design workshop used by the most innovative companies in the world.</p>
+						<a href="#" class="link-more link-more-offer">Discover our services & processes</a>
+					</div>
+					<img src="img/picture.svg" alt="#" width="486" height="444">
+				</article>
+			</div>
+		</section>
+		<section class="portfolio container">
+				<h2 class="portfolio__title">We have a lot to say</h2>
+				<p class="portfolio_text">Articles about human-centered design by members of the Indi team.</p>
+				<div class="portfolio__block">
+					<article class="portfolio__sample">
+						<img src="img/vase.svg" width="57" height="99" alt="#">
+						<p>Yet another story about teams and work culture during pandemic time</p>
+						<a class="portfolio__sample-link" href="#"><img src="img/arrowBlack.svg" width="18" height="20" alt="#"></a>
+					</article>
+					<article class="portfolio__sample">
+						<img src="img/squares.svg" width="120" height="100" alt="#">
+						<p>How we Used a Remote Design Sprint to Kick off Product Development for a Healthtech Startup</p>
+						<a class="portfolio__sample-link" href="#"><img src="img/arrowBlack.svg" width="18" height="20" alt="#"></a>
+					</article>
+					<article class="portfolio__sample">
+						<img src="img/roi.svg" width="120" height="100" alt="#">
+						<p>Designers, we need to talk about business and strategy
+						</p>
+						<a class="portfolio__sample-link" href="#"><img src="img/arrowBlack.svg" width="18" height="20" alt="#"></a>
+					</article>
+				</div>
+				<a href="#" class="link-more portfolio__link-more">Discover all the articles</a>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="feedback">
+				<h2 class="feedback__title">We want to hear about what you're building</h2>
+				<button type="button" class="feedback__btn">
+					Let's chat
+				</button>
+			</div>
+			<div class="footer__box">
+				<div class="footer__contacts">
+					<p>Av. del Libertador 1000, B1638</p>
+					<p>Vicente López,</p>
+					<p>Buenos Aires, Argentina</p>
+					<a href="#" class="footer__contacts-rights">info@indicius.com</a>
+					<p>© Indicius 2020</p>
+				</div>
+				<div class="footer__menu">
+					<div class="footer__menu-nav">
+						<div class="footer__menu-nav-box"><!--не придумал ничего лучше чем разметить на 2 блока-->
+							<a class="footer__menu-nav-box-link" href="#">Home</a>
+							<a class="footer__menu-nav-box-link" href="#">Work</a>
+							<a class="footer__menu-nav-box-link" href="#">Services</a>
+						</div>
+						<div class="footer__menu-nav-box">
+							<a class="footer__menu-nav-box-link" href="#">About</a>
+							<a class="footer__menu-nav-box-link" href="#">Contact</a>
+							<a class="footer__menu-nav-box-link" href="#">Culture</a>
+						</div>
+					</div>
+					<div class="footer__form">
+						<p class="footer__form-description">Indi updates. No spam.</p>
+						<form class="footer__form-subscription">
+							<textarea class="footer__form-subscription-area" name="email" cols="33" rows="1" placeholder="Subscribe to our newsletter"></textarea>
+							<button type="submit" class="footer__form-btn"><img src="img/arrowWhite.svg" width="19" height="10" alt=""></button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__social-media">
+					<a class="footer__social-media-logo" href="#"><svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5 2.775c3 0 3.36.011 4.546.065a4.82 4.82 0 0 1 3.382 1.23 4.82 4.82 0 0 1 1.23 3.382c.053 1.189.067 1.548.067 4.548s-.011 3.36-.065 4.546a4.819 4.819 0 0 1-1.23 3.382 4.819 4.819 0 0 1-3.382 1.23c-1.186.053-1.542.065-4.546.065-3.004 0-3.359-.011-4.546-.066a4.82 4.82 0 0 1-3.382-1.229 4.818 4.818 0 0 1-1.23-3.382c-.055-1.187-.069-1.542-.069-4.546 0-3.004.011-3.36.065-4.546a4.82 4.82 0 0 1 1.23-3.382 4.82 4.82 0 0 1 3.384-1.23c1.187-.054 1.546-.067 4.546-.067Zm0-2.025c-3.055 0-3.438.013-4.639.068a6.73 6.73 0 0 0-4.725 1.82 6.728 6.728 0 0 0-1.82 4.725C1.263 8.562 1.25 8.945 1.25 12c0 3.055.013 3.438.067 4.639a6.73 6.73 0 0 0 1.82 4.725 6.728 6.728 0 0 0 4.726 1.82c1.2.055 1.584.067 4.638.067 3.055 0 3.439-.012 4.64-.067a6.73 6.73 0 0 0 4.724-1.82 6.729 6.729 0 0 0 1.82-4.725c.055-1.2.068-1.584.068-4.639s-.013-3.438-.067-4.639a6.73 6.73 0 0 0-1.82-4.725A6.728 6.728 0 0 0 17.14.816C15.938.763 15.555.75 12.5.75Z" fill="#fff"/><path d="M12.5 6.226a5.775 5.775 0 1 0 0 11.55 5.775 5.775 0 0 0 0-11.55Zm0 9.525a3.75 3.75 0 1 1 0-7.501 3.75 3.75 0 0 1 0 7.5ZM18.505 7.345a1.35 1.35 0 1 0 0-2.7 1.35 1.35 0 0 0 0 2.7Z" fill="#fff"/></svg> </a>
+					<a class="footer__social-media-logo" href="#"><svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.25.75H2.75a1.5 1.5 0 0 0-1.5 1.5v19.5a1.5 1.5 0 0 0 1.5 1.5h19.5a1.5 1.5 0 0 0 1.5-1.5V2.25a1.5 1.5 0 0 0-1.5-1.5Zm-2.308 5.331-1.207 1.156a.352.352 0 0 0-.134.34v8.5a.352.352 0 0 0 .134.34l1.179 1.157v.253h-5.925v-.253l1.22-1.187c.12-.12.12-.155.12-.338V9.178l-3.394 8.625h-.458L7.522 9.178v5.775a.8.8 0 0 0 .22.663l1.587 1.925v.254h-4.5v-.254l1.588-1.925a.771.771 0 0 0 .205-.663v-6.68a.585.585 0 0 0-.192-.492l-1.413-1.7v-.254H9.4l3.388 7.425 2.978-7.425h4.177v.254Z" fill="#fff"/></svg></a>
+					<a class="footer__social-media-logo" href="#"><svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 24c-6.6 0-12-5.4-12-12s5.4-12 12-12 12 5.4 12 12-5.4 12-12 12Zm10.125-10.35c-.375-.15-3.15-.975-6.375-.45 1.35 3.675 1.875 6.675 2.025 7.275 2.25-1.5 3.9-3.975 4.35-6.825Zm-6.15 7.8c-.15-.9-.75-4.05-2.175-7.8h-.075c-5.775 2.025-7.875 6-8.025 6.375a10.171 10.171 0 0 0 6.3 2.175c1.425.075 2.775-.225 3.975-.75ZM4.85 18.9c.225-.375 3.075-5.025 8.325-6.75.15-.075.3-.075.375-.15-.225-.6-.525-1.2-.825-1.725-5.1 1.5-10.05 1.5-10.5 1.425v.3c0 2.625 1.05 5.025 2.625 6.9Zm-2.4-9c.45 0 4.65 0 9.45-1.275-1.725-3-3.525-5.55-3.825-5.925C5.3 4.125 3.125 6.75 2.45 9.9Zm7.65-7.875c.3.375 2.175 2.925 3.825 6 3.675-1.35 5.175-3.45 5.4-3.675-1.8-1.575-4.2-2.55-6.825-2.55-.825 0-1.65.075-2.4.225ZM20.45 5.55c-.225.3-1.95 2.475-5.7 4.05.225.525.45.975.675 1.5.075.15.15.375.225.525 3.375-.45 6.825.225 7.125.3-.075-2.4-.9-4.65-2.325-6.375Z" fill="#fff"/></g><defs><clipPath id="a"><path fill="#fff" transform="translate(.5)" d="M0 0h24v24H0z"/></clipPath></defs></svg></a>
+					<a class="footer__social-media-logo" href="#"><svg width="25" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.25.75H2.75a1.5 1.5 0 0 0-1.5 1.5v19.5a1.5 1.5 0 0 0 1.5 1.5h19.5a1.5 1.5 0 0 0 1.5-1.5V2.25a1.5 1.5 0 0 0-1.5-1.5ZM7.915 19.945H4.53V9.188h3.385v10.758ZM6.223 7.711a1.969 1.969 0 1 1 .012-3.938 1.969 1.969 0 0 1-.013 3.938Zm14.243 12.234H17.15v-5.203c0-1.265 0-2.813-1.762-2.813-1.763 0-1.975 1.337-1.975 2.742v5.345H10.1V9.188h3.102v1.476h.07a3.526 3.526 0 0 1 3.174-1.758c3.384 0 4.019 2.25 4.019 5.133v5.906Z" fill="#fff"/></svg></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
